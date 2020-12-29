@@ -167,8 +167,5 @@
   <ItemGroup>
     <EmbeddedResource Include="NumericLabel.svg" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="winforms-eurd-custom-numeric-label.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
