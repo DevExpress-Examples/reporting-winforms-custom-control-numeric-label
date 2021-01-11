@@ -48,13 +48,7 @@ namespace WinFormsApp_CustomNumericLabel {
             );
 
             ExpressionBindingDescriptor.SetPropertyDescription(
-                typeof(NumericLabel),
-                nameof(Number),
-                new ExpressionBindingDescription(
-                    eventNames, position,
-                    nestedBindableProperties,
-                    scopeName
-                )
+                typeof(NumericLabel), nameof(Number), description
             );
         }
     }
