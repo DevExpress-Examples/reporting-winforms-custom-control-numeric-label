@@ -6,8 +6,8 @@ This example demonstrates how to add a [custom numeric label control](https://do
 
 ## Files to Look At
 
-- [NumericLabel.cs](CS/NumericLabel.cs) [NumericLabel.vb](VB/NumericLabel.vb)
-- [Form1.cs](CS/Form1.cs) [Form1.vb](VB/Form1.vb)
+- [NumericLabel.cs](CS/NumericLabel.cs) ([NumericLabel.vb](VB/NumericLabel.vb))
+- [Form1.cs](CS/Form1.cs) ([Form1.vb](VB/Form1.vb))
 
 
 ## Documentation
