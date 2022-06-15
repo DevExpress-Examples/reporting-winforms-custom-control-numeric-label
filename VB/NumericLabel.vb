@@ -1,4 +1,4 @@
-﻿Imports DevExpress.Utils.Serializing
+Imports DevExpress.Utils.Serializing
 Imports DevExpress.XtraReports
 Imports DevExpress.XtraReports.UI
 Imports System.ComponentModel
@@ -6,7 +6,7 @@ Imports DevExpress.XtraReports.Expressions
 Imports DevExpress.Utils.Design
 
 Namespace WinFormsApp_CustomNumericLabel
-	<ToolboxItem(True), DefaultBindableProperty("Number"), ToolboxSvgImage("WinFormsApp_CustomNumericLabel.NumericLabel.svg, WinFormsApp_CustomNumericLabel")>
+	<ToolboxItem(True), DefaultBindableProperty("Number"), ToolboxSvgImage("NumericLabel.svg, WinFormsApp_CustomNumericLabel")>
 	Public Class NumericLabel
 		Inherits XRLabel
 

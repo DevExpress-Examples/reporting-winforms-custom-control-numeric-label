@@ -27,7 +27,7 @@
 			Me.BottomMargin = New DevExpress.XtraReports.UI.BottomMarginBand()
 			Me.Detail = New DevExpress.XtraReports.UI.DetailBand()
 			Me.numericLabel1 = New WinFormsApp_CustomNumericLabel.NumericLabel()
-			CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me, System.ComponentModel.ISupportInitialize).BeginInit()
 			' 
 			' TopMargin
 			' 
@@ -56,7 +56,7 @@
 			Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() { Me.TopMargin, Me.BottomMargin, Me.Detail})
 			Me.Font = New System.Drawing.Font("Arial", 9.75F)
 			Me.Version = "20.2"
-			CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
 		End Sub
 

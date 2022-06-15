@@ -23,22 +23,35 @@
 		''' the contents of this method with the code editor.
 		''' </summary>
 		Private Sub InitializeComponent()
+			Me.button1 = New System.Windows.Forms.Button()
 			Me.SuspendLayout()
+			' 
+			' button1
+			' 
+			Me.button1.Location = New System.Drawing.Point(141, 54)
+			Me.button1.Name = "button1"
+			Me.button1.Size = New System.Drawing.Size(127, 23)
+			Me.button1.TabIndex = 0
+			Me.button1.Text = "Open a Report"
+			Me.button1.UseVisualStyleBackColor = True
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.button1.Click += new System.EventHandler(this.button1_Click);
 			' 
 			' Form1
 			' 
 			Me.AutoScaleDimensions = New System.Drawing.SizeF(6F, 13F)
 			Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-			Me.ClientSize = New System.Drawing.Size(800, 450)
+			Me.ClientSize = New System.Drawing.Size(408, 130)
+			Me.Controls.Add(Me.button1)
 			Me.Name = "Form1"
 			Me.Text = "Form1"
-'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
-'ORIGINAL LINE: this.Load += new System.EventHandler(this.Form1_Load);
 			Me.ResumeLayout(False)
 
 		End Sub
 
 		#End Region
+
+		Private WithEvents button1 As System.Windows.Forms.Button
 	End Class
 End Namespace
 

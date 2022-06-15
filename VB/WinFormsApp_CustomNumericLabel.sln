@@ -1,7 +1,7 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.757
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinFormsApp_CustomNumericLabel", "WinFormsApp_CustomNumericLabel.vbproj", "{FA00648E-4DA7-463B-AB25-A566B36B4078}"
 EndProject
@@ -15,11 +15,11 @@ Global
 		{FA00648E-4DA7-463B-AB25-A566B36B4078}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA00648E-4DA7-463B-AB25-A566B36B4078}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA00648E-4DA7-463B-AB25-A566B36B4078}.Release|Any CPU.Build.0 = Release|Any CPU
-		EndGlobalSection
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0E4DED56-6F75-482B-920A-3877228B7A9E}
+		SolutionGuid = {221896C0-8E1D-404D-9870-B6C17CF1AC17}
 	EndGlobalSection
 EndGlobal

@@ -1,41 +1,49 @@
-using System;
-using System.Windows.Forms;
 using DevExpress.XtraReports.UI;
 using DevExpress.XtraReports.UserDesigner;
+using System;
 using System.Drawing.Design;
+using System.Windows.Forms;
 
-namespace WinFormsApp_CustomNumericLabel {
+namespace WinFormsApp_CustomNumericLabel
+{
     public partial class Form1 : Form {
         public Form1() {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e) {
-            // Create a Design Tool with an assigned report instance.
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ShowDesignerWithCustomControl();
+        }
+        void ShowDesignerWithCustomControl()
+        {
+            // Creates a Design Tool instance with the specified report instance.
             ReportDesignTool designTool = new ReportDesignTool(new XtraReport1());
-
-            // Access the standard form.
             IDesignForm designForm = designTool.DesignForm;
-
-            // Handle the Design Panel's Loaded event.
             designForm.DesignMdiController.DesignPanelLoaded += DesignMdiController_DesignPanelLoaded;
-
-            // Load a Report Designer in a dialog window.
             designTool.ShowDesignerDialog();
         }
+
         void DesignMdiController_DesignPanelLoaded(object sender, DesignerLoadedEventArgs e) {
-            // Access the Toolbox service.
             IToolboxService toolboxService =
                 (IToolboxService)e.DesignerHost.GetService(typeof(IToolboxService));
-
-            // Create a new toolbox item for the custom control.
-            ToolboxItem numericLabelItem = new ToolboxItem(typeof(NumericLabel));
-
-            // Specify the control's name to be displayed in the toolbox.
-            numericLabelItem.DisplayName = "Numeric Label";
-
-            // Add the new control to the toolbox.
+            // Removes the XRLabel toolbox item.
+            toolboxService.RemoveToolboxItem(
+                GetToolBoxControl(toolboxService, "DevExpress.XtraReports.UI.XRLabel"));
+            // Creates a new toolbox item for the custom control.
+            ToolboxItem numericLabelItem = new ToolboxItem(typeof(NumericLabel))
+            {
+                // Specifies the name in the toolbox.
+                DisplayName = "Numeric Label"
+            };
+            // Adds the new control to the toolbox.
             toolboxService.AddToolboxItem(numericLabelItem);
+        }
+
+        ToolboxItem GetToolBoxControl(IToolboxService toolboxService, string name) {
+            foreach (ToolboxItem item in toolboxService.GetToolboxItems()) {
+                if (item.TypeName == name) { return item; };
+            }
+            return null;
         }
     }
 }
