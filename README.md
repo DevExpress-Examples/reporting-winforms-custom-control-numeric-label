@@ -1,9 +1,4 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/325215546/2021.2)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T961004)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
-# Add a Custom Control to the End-User Report Designer Toolbox (WinForms)
+﻿# Add a Custom Control to the End-User Report Designer Toolbox (WinForms)
 
 This example demonstrates how to add a [custom numeric label control](https://docs.devexpress.com/XtraReports/3307) to the [End-User Report Designer](https://docs.devexpress.com/XtraReports/10715) Toolbox in a WinForms application.
 
@@ -17,7 +12,7 @@ This example demonstrates how to add a [custom numeric label control](https://do
 
 ## Documentation
 
-- [Add a Custom Control to the End-User Report Designer Toolbox (WinForms)](https://docs.devexpress.com/XtraReports/7546/winforms-reporting/end-user-report-designer-for-winforms/api-and-customization/add-custom-control-to-the-end-user-report-designers-toolbox?v=21.2).
+- [Add a Custom Control to the End-User Report Designer Toolbox (WinForms)](https://docs.devexpress.com/XtraReports/7546/winforms-reporting/end-user-report-designer-for-winforms/api-and-customization/add-custom-control-to-the-end-user-report-designers-toolbox?v=22.1).
 
 ## More Examples
 
