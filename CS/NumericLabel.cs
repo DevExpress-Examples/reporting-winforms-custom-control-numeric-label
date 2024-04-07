@@ -32,14 +32,14 @@ namespace WinFormsApp_CustomNumericLabel {
             string[] eventNames = new string[] { "BeforePrint" };
 
             // Specify the property position in the property grid's "Expressions" tab.
-            // 0 - fist, 1000 - last.
+            // 0 - first, 1000 - last.
             int position = 0;
 
             // Specify an array of the property's inner properties.
             string[] nestedBindableProperties = null;
 
             // Specify the property's category in the property grid's "Expressions" tab.
-            // The empty string corresponds the root category.
+            // The empty string corresponds to the root category.
             string scopeName = "";
 
             // Create and set a description for the "Number" property.

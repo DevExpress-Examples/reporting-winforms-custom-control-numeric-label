@@ -33,14 +33,14 @@ Namespace WinFormsApp_CustomNumericLabel
 			Dim eventNames() As String = { "BeforePrint" }
 
 			' Specify the property position in the property grid's "Expressions" tab.
-			' 0 - fist, 1000 - last.
+			' 0 - first, 1000 - last.
 			Dim position As Integer = 0
 
 			' Specify an array of the property's inner properties.
 			Dim nestedBindableProperties() As String = Nothing
 
 			' Specify the property's category in the property grid's "Expressions" tab.
-			' The empty string corresponds the root category.
+			' The empty string corresponds to the root category.
 			Dim scopeName As String = ""
 
 			' Create and set a description for the "Number" property.
