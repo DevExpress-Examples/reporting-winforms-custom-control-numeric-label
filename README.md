@@ -18,7 +18,7 @@ This example demonstrates how to add a [custom numeric label control](https://do
 
 ## Documentation
 
-- [Add a Custom Control to the End-User Report Designer Toolbox (WinForms)](https://docs.devexpress.com/XtraReports/7546/winforms-reporting/end-user-report-designer-for-winforms/api-and-customization/add-custom-control-to-the-end-user-report-designers-toolbox?v=22.1).
+- [Add a Custom Control to the End-User Report Designer Toolbox (WinForms)](https://docs.devexpress.com/XtraReports/7546/desktop-reporting/winforms-reporting/end-user-report-designer-for-winforms/api-and-customization/add-custom-control-to-the-end-user-report-designers-toolbox).
 
 ## More Examples
 
@@ -31,3 +31,4 @@ This example demonstrates how to add a [custom numeric label control](https://do
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
